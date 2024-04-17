@@ -5,11 +5,35 @@ body {
     background-color: #f0f0f0;
 }
 
-header, footer {
+header {
     background-color: #333;
     color: #fff;
+    padding: 10px 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+}
+
+.logo2{
+    width: 75px;
+    height: 75px;
+    visibility: hidden;
+}
+
+.overtext {
+    align-items: center;
+}
+
+.h11{
     text-align: center;
-    padding: 20px 0;
+}
+.h22{
+    text-align: center;
 }
 
 section {
@@ -19,6 +43,11 @@ section {
     margin: 0 auto;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 ul {
