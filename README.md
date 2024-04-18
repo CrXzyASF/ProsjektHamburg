@@ -7,6 +7,6 @@ We also added a payment page for the monthly plans we created. (No scams include
 The theme of this website is fitness so we had to make it somewhat a fitness website using a icon provided by the task.
 
 
-Worked on this Task:
+# Worked on this Task:
 - Carl
 - Mats
