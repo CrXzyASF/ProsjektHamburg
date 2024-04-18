@@ -46,7 +46,17 @@ section {
 li:hover{
     background-color:   #e0e0e0;
     cursor: pointer;
-    color: #333;
+}
+
+#revert-link {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+  
+#revert-icon {
+    width: 20px;
+    height: 20px;
 }
 
 footer {
