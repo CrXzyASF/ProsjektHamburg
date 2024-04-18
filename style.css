@@ -123,7 +123,7 @@ footer {
     background-color: #D26800;
 }
 
-* { 
+.payment-container * { 
 	margin: 0; 
 	padding: 0; 
 	box-sizing: border-box; 
