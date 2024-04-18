@@ -56,8 +56,24 @@ li {
 }
 
 li:hover{
-    background-color:   #e0e0e0;
+    background-color:   #D26800;
     cursor: pointer;
+}
+
+
+.active{
+    background-color: #D26800;
+}
+
+#revert-link {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+  
+#revert-icon {
+    width: 20px;
+    height: 20px;
 }
 
 footer {
@@ -134,5 +150,5 @@ footer {
 }
 
 .plan-box button:hover {
-    background-color: #e0e0e0;
+    background-color: #D26800;
 }
