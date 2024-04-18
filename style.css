@@ -5,29 +5,20 @@ body {
     background-color: #f0f0f0;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 12%;
+.header-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+.header-container img {
+    margin-right: 10px;
+    max-width: 100px; 
+    height: auto;
 }
 
-.logo{
-    width: 75px;
-    height: 75px;
-}
-
-.logo2{
-    width: 75px;
-    height: 75px;
-    visibility: hidden;
-}
-
-.overtext {
-    align-items: center;
-}
 
 .h11{
     text-align: center;
@@ -75,3 +66,73 @@ footer {
     text-align: center;
     padding: 10px 0;
 } 
+
+.serviceList, ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.serviceList, li {
+    margin-bottom: 10px;
+    background-color: #ff8c00;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.serviceList, a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+#plans {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.plan-box {
+    border: 1px solid #ccc;
+    padding: 30px;
+    text-align: center;
+    width: 45%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.plan-box h3 {
+    margin-top: 0;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.plan-box ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.plan-box li {
+    margin-bottom: 10px;
+}
+
+.plan-box button {
+    background-color: #ff8c00;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.plan-box button:hover {
+    background-color: #e0e0e0;
+}
